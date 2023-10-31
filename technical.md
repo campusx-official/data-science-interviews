@@ -368,7 +368,12 @@ def remove_duplicates2(lst):
         if elem not in new_list:
             new_list.append(elem)
     return new_list
+# just simple typecast can also do the task
+lst = list(set(lst))
+
 ```
+
+
 
 <br/>
 
