@@ -100,7 +100,7 @@ ORDER BY e.date ASC, "count" DESC;
 
 <img src="img/sql_6_example.png" />
 
-
+ 
 ```sql
 SELECT a.campaign_id, e.event_type, count(*)
 FROM Ads AS a
